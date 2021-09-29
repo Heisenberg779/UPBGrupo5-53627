@@ -1,8 +1,156 @@
-#nav_drawer {
-    width: 20%;
-    height: 20%;
-    float: right;
+/*-----------------INDEX-------------------*/
+
+#body_index {
+    background-size: cover;
+    padding: 0px 80px 0px 80px;
+    margin: 0px;
 }
+
 #logo_navbar {
     width: 100%;
+}
+
+#espacio_titulo {
+    height: 110px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+#imagen_color_header {
+    height: 50px;
+    width: auto;
+    background-image: url("Img/Imagen_nav.jpg");
+    align-items: center center;
+    justify-content: center;
+    display: flex;
+    border-top: solid 4px;
+    padding: 0px 220px 0px 0px;
+}
+
+#btn_nav {
+    width: 200px;
+    background-color: rgba(0,0,0,0);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    border-style:none;
+    margin: 0px 20px 0 20px;
+}
+
+#nav_drawer {
+    width: 220px;
+    height: 450px;
+    float: right;
+    border-radius: 14px;
+    background-image: url("Img/Formulario_Inicio_Sesion.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+#Espacio_iniciar_Sesion {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#btn_iniciar_sesion {
+    margin: 0% 0% 0% 0%;
+    width: 160px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 28px;
+    background-color: rgb(124, 165, 241);
+}
+
+#Espacio_boton_registrate {
+    margin: 0px 0px 22px 0px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#btn_registrarme {
+    margin: 0% 0% 0% 0%;
+    width: 160px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 28px;
+    background-color: rgb(124, 165, 241);
+}
+
+#quienes_somos {
+    background-color: rgba(148, 148, 148,0.5);
+    border-radius: 28px;
+    width: 71%;
+    height: 68%;
+    position: absolute;
+}
+
+#texto_quienes_somos {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.espacio_ceos {
+    display: flex;
+    width: 100%;
+    height: 71%;
+    justify-content:center;
+    align-items: center;
+}
+
+.espacio_individual {
+    background-color: rgba(10, 13, 236, 0.4);
+    width: 100%;
+    height: 50%;
+    border-radius: 20%;
+    padding: 3%;
+    margin: 0% 3% 0% 0%;
+    text-align: center;
+    align-items: center;
+}
+
+.foto {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/*----------------REGISTRO-----------------*/
+
+#form_registrarse {
+    padding: 18px;
+    width: 220px;
+    height: 500px;
+    border-radius: 28px;
+    margin:3% auto;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url("Img/Fondo_Form_Registro.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.fondo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right top, #05193799, #004d7a99, #00879399);
+    z-index: -1;
+    border-radius: 28px;
+}
+#btn_registrar_usuario {
+    font-size: 9px;
+    padding: 8px;
+    border-radius: 28px;
+    background-image:-webkit-linear-gradient(top, rgb(221, 236, 225), rgb(210, 240, 175));
+}
+#btn_registrar_cancelar {
+    width: 90px;
+    font-size: 9px;
+    padding: 8px;
+    border-radius: 28px;
+    background-image:-webkit-linear-gradient(top, rgb(221, 236, 225), rgb(210, 240, 175));
 }

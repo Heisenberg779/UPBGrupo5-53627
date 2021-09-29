@@ -1,17 +1,118 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <link href="estilos.css" rel="stylesheet"/> 
+        <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet"/>
+        <title>FarmOnline - Inicio</title> 
     </head>
-    <body>
-        <nav id="nav_drawer">
-            <img id = "logo_navbar" src="Img/logo.png" alt = "WFM TEAM">
-            <br><br>
-            <button id="buttonreg_nav">
-                <a href="registro.html">
-                    Registro
-                </a>
-            </button>
+    <body id="body_index" background="Img/Fondo_General.jpg">
+        <header>
+            <div id="espacio_titulo">
+                <img src="Img/logo2.png" width="8%">
+                <div id="titulo">
+                    <img src="Img/Titulo.png">
+                </div>                    
+            </div>
+            <div id="imagen_color_header">
+                <button id="btn_nav" href="">
+                    <a href="" style="text-decoration: none;">
+                        QUIENES SOMOS
+                    </a>    
+                </button>
+                <button id="btn_nav" href="">
+                    <a href="" style="text-decoration: none;">
+                        TIENDA ONLINE
+                    </a>
+                </button>
+                <button id="btn_nav" href="">
+                    <a href="" style="text-decoration: none;">
+                        NUESTROS CLIENTES
+                    </a>
+                </button>
+                <button id="btn_nav" href="">
+                    <a href="" style="text-decoration: none;">
+                        CONTACTO
+                    </a>
+                </button>
+
+            </div>
+        </header>
+        <br>
+        <nav>
+            <div id="nav_drawer">
+                <div>
+                    <img id = "logo_navbar" src="Img/logo.png" alt = "WFM TEAM">
+                </div>
+                <div id="Espacio_iniciar_Sesion">
+                    <label style="font-family: 'Franklin Gothic Medium';">Correo Electronico:</label>
+                    <input type="email" placeholder="Correo">
+                    <br>
+                    <br>
+                    <label style="font-family: 'Franklin Gothic Medium';">Contraseña:</label>
+                    <input placeholder="Contraseña">
+                    <br>
+                    <br>
+                    <button id="btn_iniciar_sesion">
+                        <a href="" style="text-decoration: none;">
+                            Iniciar Sesion
+                        </a>
+                    </button>
+                </div>
+                <br>
+                <div id="Espacio_boton_registrate">
+                    <p><strong>¿Aún no haces parte de MI FINCA?</strong></p>
+                    <button id="btn_registrarme">
+                        <a href="registro.html" style="text-decoration:none">
+                            ¡Registrarme!
+                        </a>
+                    </button>
+                </div>
+            </div>
         </nav>
+        <article>
+            <div id="quienes_somos">
+                <div id="texto_quienes_somos">
+                    <h2>QUIENES SOMOS</h2>
+                    <p style="margin:0;font-family:'Franklin Gothic Medium'; margin: 0% 3% 0% 3%;" ><strong>MI FINCA</strong> es un proyecto realizado por 5 integrantes del programa MinTic, proyecto el cual esta enfocado en las necesidades comerciales de aquellos campesinos agricolas de colombia, donde la comercializacion de sus productos es un reto por la ubicacion y costos de distribucion en sitios de comercializacion de gran escala,<strong> MI FINCA </strong>conecta el campesino agricultor directamente con los almacenes de grandes superficies o sitios que necesiten productos a mediana o gran escala para tener un mejor valor en el caso del cliente y menor costo de distribucion para los usuarios (Campesinos). </p>
+                </div>
+                <div class="espacio_ceos">
+                    <div class="espacio_individual">
+                        <div>
+                            <img src="Img/Foto1.png" title="Fabian Melo" alt="Fabian Melo" class="foto">
+                        </div>
+                        <br>
+                        <p style="margin:0;font-family:'Franklin Gothic Medium';"><strong>Fabian Melo</strong></p>
+                    </div>
+                    <div class="espacio_individual">
+                        <div>
+                            <img src="Img/Foto2.png" title="Felipe Giraldo" alt="Felipe Giraldo" class="foto">
+                        </div>
+                        <br>
+                        <p style="margin:0;font-family:'Franklin Gothic Medium';"><strong>Felipe Giraldo</strong></p>
+                    </div>
+                    <div class="espacio_individual">
+                        <div>
+                            <img src="Img/Foto3.png" title="Andres" alt="Andres" class="foto">
+                        </div>
+                        <br>
+                        <p style="margin:0;font-family:'Franklin Gothic Medium';"><strong>Andres</strong></p>
+                    </div>
+                    <div class="espacio_individual">
+                        <div>
+                            <img src="Img/Foto4.png" title="Maicol Egas" alt="Maicol Egas" class="foto">
+                        </div>
+                        <br>
+                        <p style="margin:0;font-family:'Franklin Gothic Medium';"><strong>Alex fabian</strong></p>
+                    </div>
+                    <div class="espacio_individual">
+                        <div>
+                            <img src="Img/Foto5.png" title="Alex Fabian" alt="Alex Fabian" class="foto">
+                        </div>
+                        <br>
+                        <p style="margin:0;font-family:'Franklin Gothic Medium';"><strong>Maicol Egas</strong></p>
+                    </div>
+                </div>
+            </div>
+        </article>  
     </body>
 </html>
