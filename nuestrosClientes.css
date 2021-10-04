@@ -4,3 +4,28 @@
     align-items: center;
     padding: 0%;
 }
+*{
+    box-sizing: border-box;
+}
+.body_index {
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0%;
+}
+
+#imagen_color_header {
+    height: 100%;
+    width: 100%;
+    background-image: url("Img/Imagen_nav.jpg");
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top: solid 4px;
+}
+#Primertexto{
+    text-align:justify;
+}
+h3{
+    text-align: right;
+}
