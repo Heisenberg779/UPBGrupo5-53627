@@ -6,6 +6,8 @@
 }
 *{
     box-sizing: border-box;
+    width: 100 px;
+    
 }
 #regresar{
     height: 100%;
@@ -17,6 +19,7 @@
     /*border-top: solid 4px;*/
 }
 .body_index {
+    
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
@@ -26,9 +29,9 @@
 #imagen_color_header {
     height: 100%;
     width: 100%;
-    background-image: url("Img/Imagen_nav.jpg");
-    align-items: center;
-    justify-content: center;
+    /*background-image: url("Img/Imagen_nav.jpg");*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
     display: flex;
     /*border-top: solid 4px;*/
 }
@@ -36,9 +39,39 @@
     text-align:justify;
 }
 h3{
-    text-align: right;
+    text-align: left;
+    font-size: 20px;
 }
 span:active{
     color: blue;
     
 }
+.section1{
+    background-color: rgb(124, 214, 143);
+    margin: 15px;
+}
+img{
+    height: 270px;
+    margin: 8px;
+}
+
+.grid-container { /* Afecta class: section1*/ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(124, 214, 143);;
+    padding: 5px;
+  }
+.grid-item { /* Afecta class: section1*/ 
+    background-color: rgba(255, 255, 255, 0.8);
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.TextoBirografia{
+    text-align: justify;
+    font-size: 20px;
+    max-width: inherit;
+    margin: 1px;
+}
+
