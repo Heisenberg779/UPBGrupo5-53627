@@ -7,6 +7,15 @@
 *{
     box-sizing: border-box;
 }
+#regresar{
+    height: 100%;
+    width: 100%;
+    /*background-image: url("Img/Imagen_nav.jpg");*/
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    /*border-top: solid 4px;*/
+}
 .body_index {
     background-size: cover;
     padding-left: 5%;
@@ -21,11 +30,15 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    border-top: solid 4px;
+    /*border-top: solid 4px;*/
 }
 #Primertexto{
     text-align:justify;
 }
 h3{
     text-align: right;
+}
+span:active{
+    color: blue;
+    
 }
