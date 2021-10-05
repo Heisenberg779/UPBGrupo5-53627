@@ -2,37 +2,41 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="estilos.css" rel="stylesheet"/>
-        <title>FarmOnline - Registrar</title>
+        <title>FL - Registrar</title>
+        <link rel="icon" href="Img/logo.png">
     </head>
-    <body class="body_index" background="Img/Fondo_General.jpg">
-        <nav id="form_registrarse">
-            <div class="fondo">
-                <img class="logo_navbar" src="Img/logo.png" alt = "LOGO MI FINCA" name="LOGO MI FINCA">
+    <body id="body_registro" background="Img/Fondo_General.jpg">
+        <nav>
+            <div id="form_registrarse">
+                <img id="logo_navbar_registro" src="Img/logo.png" alt = "future live" name="future live">
                 <img src="Img/Titulo.png" alt ="MI FINCA" name="MI FINCA">
                 <h3 style="color: grey;">¡Registrate!</h3>
-                <label for="in_nombre_usuario"> NOMBRE DE USUARIO </label>
-                <input class="input_registro" type="email" id="in_nombre_usuario" name="Usuario">
-                <br><br><br>
-                <label for="in_contrasena"> CONTRASEÑA </label>
-                <input class="input_registro" type="text" id="in_contrasena" name="Contraseña">
-                <br><br><br>
-                <label for="in_confirmar_contrasena"> CONFIRMAR CONTRASEÑA </label>
-                <input class="input_registro" type="text" id="in_confirmar_contrasena" name="Confirmar contraseña">
-                <br><br><br>
-                <button class="botones_registro">
-                    <a class="enlaces" href="index.html" style="text-decoration: none;">
-                        Registrar Usuario
+                <form>
+                    <label style="color:rgb(0, 128, 128)" for="in_nombre_usuario"> NOMBRE DE USUARIO </label>
+                    <input class="input_registro" type="email" id="in_nombre_usuario" name="Usuario" required>
+                    <br><br><br>
+                    <label style="color:rgb(0, 128, 128)" for="in_contrasena"> CONTRASEÑA </label>
+                    <input class="input_registro" type="text" id="in_contrasena" name="Contraseña" required>
+                    <br><br><br>
+                    <label style="color:rgb(0, 128, 128)" for="in_confirmar_contrasena"> CONFIRMAR CONTRASEÑA </label>
+                    <input class="input_registro" type="text" id="in_confirmar_contrasena" name="Confirmar contraseña" required>
+                    <br><br><br>
+                    <a onclick=validar_nombre_vacio() id="enlaces_registro_registrate" href="" style="text-decoration: none;">
+                        &#9989; Registrar Usuario
                     </a>
-                </button>
-                <br>
-                <br>
-                <button class="botones_registro">
-                    <a class="enlaces" href="index.html" style="text-decoration: none;">
-                        Cancelar
+                    <br>
+                    <br>
+                    <br>
+                    <a id="enlaces_registro_cancelar" href="index.html" style="text-decoration: none;">
+                        &#10060; Cancelar
                     </a>
-                </button>
+                </form>
             </div>
         </nav>
+    <script>
+        src="script.js"
+    </script>
     </body>
 </html>
