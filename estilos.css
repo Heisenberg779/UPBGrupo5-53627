@@ -82,8 +82,11 @@
     border-bottom-color: rgb(0, 128, 128);
     outline: none;
     text-align: center;
-    color: white;
+    color: black;
 }
+
+
+
 
 .enlaces_sesion {
     color: black;
@@ -96,7 +99,7 @@
 
 .enlaces_sesion:hover {
     background-color: black;
-    color: white;
+    color:yellow;
     border-color: white;
     border: solid 2px;
 }
@@ -463,3 +466,12 @@
     color: purple;
 }
 
+
+.div-btn{
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    padding: 2%;
+    border-radius: 28px;
+    background-color:white;
+    border: solid 1px;
+}

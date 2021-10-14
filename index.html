@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,27 +32,32 @@
         <nav>
             <div class="imagen_fondo_iniciar_sesion">
                 <div id="nav_drawer">
+                    
                     <div>
                         <img class="logo_navbar_inicio" src="Img/logo.png" alt="future live">
                     </div>
                     <br>
+                    
                     <form>
-                        <label style="font-family:'Franklin Gothic Medium';color:rgb(0, 128, 128);">Correo Electronico:</label>
-                        <input class="input_iniciar_sesion" type="email" placeholder="Correo" autocomplete="on">
+                        
+                        <div>
+                            <label  for="in_nombre_usuario" style="font-family:'Franklin Gothic Medium';color:rgb(0, 128, 128);">Usuario:</label>
+                            <input class="input_iniciar_sesion" id="in_nombre_usuario" name="in_nombre_usuario" value="" type="text" placeholder="Digite el usuario">
+                        </div>
                         <br>
-                        <br>
-                        <br>
-                        <label style="font-family: 'Franklin Gothic Medium';color:rgb(0, 128, 128);">Contraseña:</label>
-                        <input class="input_iniciar_sesion" type="password" placeholder="Contraseña">
-                        <br>
-                        <br>
-                        <input class="checkbox" type="checkbox">
-                        <label class="checkbox" style="font-family: 'Franklin Gothic Medium';color:rgb(0, 128, 128);">Guardar Datos</label>
-                        <br>
-                        <br>
-                        <a class="enlaces_sesion" href="" style="text-decoration: none;">
-                            &#128273; Iniciar Sesion
-                        </a>
+
+                        <div>
+                            <label for="in_contrasena" style="font-family: 'Franklin Gothic Medium';color:rgb(0, 128, 128);">Contraseña:</label>
+                            <input class="input_iniciar_sesion" id="in_contrasena" name="in_contrasena" value="" type="password" placeholder="Digite la contraseña">
+                        </div>
+
+                        <br><br>
+
+                        <div class="div-btn">
+                            <button class="enlaces_sesion" type="button" id="btnGuardar" onclick="agregarRegistro(); OrdenarArreglo();" value="Guardar">Iniciar Sesión</button>
+                        </div>
+
+                   
                     </form>
                     <br>
                     <br>            
@@ -65,6 +70,6 @@
         <di id="contenido_inicio">
 
         </di>
-    <script src="./script.js"></script>
+        <script src="./validacionSesion.js"></script>
     </body>
 </html>
