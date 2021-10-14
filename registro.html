@@ -9,30 +9,32 @@
     </head>
     <body id="body_registro" background="Img/Fondo_General.jpg">
         <nav>
-            <div id="form_registrarse">
-                <img id="logo_navbar_registro" src="Img/logo.png" alt = "future live" name="future live">
-                <img src="Img/Titulo.png" alt ="MI FINCA" name="MI FINCA">
-                <h3 style="color: grey;">¡Registrate!</h3>
-                <form>
-                    <label style="color:rgb(0, 128, 128)" for="in_nombre_usuario"> NOMBRE DE USUARIO </label>
-                    <input class="input_registro" type="email" id="in_nombre_usuario" name="Usuario" required>
-                    <br><br><br>
-                    <label style="color:rgb(0, 128, 128)" for="in_contrasena"> CONTRASEÑA </label>
-                    <input class="input_registro" type="text" id="in_contrasena" name="Contraseña" required>
-                    <br><br><br>
-                    <label style="color:rgb(0, 128, 128)" for="in_confirmar_contrasena"> CONFIRMAR CONTRASEÑA </label>
-                    <input class="input_registro" type="text" id="in_confirmar_contrasena" name="Confirmar contraseña" required>
-                    <br><br><br>
-                    <a onclick=validar_nombre_vacio() id="enlaces_registro_registrate" href="" style="text-decoration: none;">
-                        &#9989; Registrar Usuario
-                    </a>
-                    <br>
-                    <br>
-                    <br>
-                    <a id="enlaces_registro_cancelar" href="index.html" style="text-decoration: none;">
-                        &#10060; Cancelar
-                    </a>
-                </form>
+            <div id="imagen_formulario_registrarse">
+                <div id="form_registrarse">
+                    <img id="logo_navbar_registro" src="Img/logo.png" alt = "future live" name="future live">
+                    <img src="Img/Titulo.png" alt ="MI FINCA" name="MI FINCA">
+                    <h3 style="color: grey;">¡Registrate!</h3>
+                    <form>
+                        <label style="color:rgb(0, 128, 128)" for="in_nombre_usuario"> NOMBRE DE USUARIO </label>
+                        <input class="input_registro" type="email" id="in_nombre_usuario" name="Usuario" required>
+                        <br><br><br>
+                        <label style="color:rgb(0, 128, 128)" for="in_contrasena"> CONTRASEÑA </label>
+                        <input class="input_registro" type="text" id="in_contrasena" name="Contraseña" required>
+                        <br><br><br>
+                        <label style="color:rgb(0, 128, 128)" for="in_confirmar_contrasena"> CONFIRMAR CONTRASEÑA </label>
+                        <input class="input_registro" type="text" id="in_confirmar_contrasena" name="Confirmar contraseña" required>
+                        <br><br><br>
+                        <a onclick="validar_nombre_vacio();" id="enlaces_registro_registrate" href="#" style="text-decoration: none;" type="button">
+                            &#9989; Registrar Usuario
+                        </a>
+                        <br>
+                        <br>
+                        <br>
+                        <a id="enlaces_registro_cancelar" href="index.html" style="text-decoration: none;">
+                            &#10060; Cancelar
+                        </a>
+                    </form>
+                </div>
             </div>
         </nav>
     <script>
